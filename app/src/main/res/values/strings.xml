@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Build it Bigger</string>
+    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="button_text">Tell Joke</string>
+    <string name="action_settings">Settings</string>
+    <string name="joke_text_test">This is a joke from our java library using our Google Cloud Endpoints development server</string>
+    <string name="local_ip_address">http://192.168.0.19:8080/_ah/api/</string>
+</resources>
