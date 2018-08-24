@@ -1,19 +1,14 @@
-# TravelDBM
+# BuildItBigger
 
-#### TravelDBM is an Android app for searching hotels in a determined city. It will help you find hotels by giving the name of the city and the check-in and check-out dates.
+#### BuildItBigger is an Android app developed during the Udacity's Android Nanodegree which tells a joke using a Google Cloud Endpoints development server. The final goal for this app was to understand and customize the behavior of the Gradle build tool as well as the steps involved in the creation of product flavors, build types, Java libraries, Android libraries, keystores, keys and signing configs including automatic signing.  
 
-#### You can save hotels as favorites, share hotel information with family and friends, and see hotel details as room prices, services, location, contact information and so on.
-
-#### The app also features a widget which shows your favorite hotels on your home screen and gives you direct access to each of them.
+#### The app has free and paid versions. The only difference between them is the presence of advertisements in the free version.
 
 </br>
 
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F1.png?alt=media&token=3ca97aff-5100-4d8b-b9dd-3289e250c8e9" width="420" height="692" style="margin:4px"> <img/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F2.png?alt=media&token=ac984bd1-3de2-47ea-8d24-62bb23e6a328" width="420" height="692" style="margin:4px">
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F3.png?alt=media&token=927fd20f-d754-4506-8297-902fc0c94d55" width="420" height="692" style="margin:4px"> <img/><img
-src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F4.png?alt=media&token=2806cf93-16f9-42e4-bfa0-6fb17e5417f1" width="420" height="692" style="margin:4px">
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F5.png?alt=media&token=84f5a1a0-68e0-46ef-9936-e27365e0ce37" width="420" height="692" style="margin:4px"> <img/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F6.png?alt=media&token=83e35cad-d9ed-405f-a321-80ae0aed6f41" width="420" height="692" style="margin:4px">
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F7.png?alt=media&token=034972d7-57d1-4ae9-a92c-a7e3098a4b63" width="420" height="692" style="margin:4px"> <img/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F8.png?alt=media&token=95b9982f-039a-4ba8-ba8c-d8cf4d11afe3" width="420" height="692" style="margin:4px">
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/TravelDBM%2F9.png?alt=media&token=022d94f9-e83e-41cc-ae5e-12a1c9fe14a5" width="420" height="692" style="margin:4px">
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F1.png?alt=media&token=f789cdff-8126-43d2-95f1-c950756c0360" width="420" height="692" style="margin:4px"> <img/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F2.png?alt=media&token=1612d58a-19c9-4d28-ae79-433b4f8d6a0a" width="420" height="692" style="margin:4px">
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F3.png?alt=media&token=cf3c0ec4-eac5-482a-9c3f-b171e35f1cc7" width="420" height="692" style="margin:4px"> <img/><img
+src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F4.png?alt=media&token=f3ae25c8-bf5b-4be6-a316-ea28cb4605f0" width="420" height="692" style="margin:4px">
 
 ## Getting Started
 
@@ -21,39 +16,33 @@ src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/
 
 ## Prerequisites
 
-#### TravelDBM was developed using Android Studio IDE so you must install it in your computer before proceeding:
+#### BuildItBigger was developed using Android Studio IDE so you must install it in your computer before proceeding:
 
 ###### https://developer.android.com/studio/
 
-#### Additionally, this application uses the Google Maps API and the Travel Innovation Sandbox API. Therefore, in order to use TravelDBM, you will need both API keys:
-
-###### https://console.developers.google.com/ (for Google Maps API key)
-###### https://sandbox.amadeus.com/api-catalog (create an account and follow the instructions to generate a Travel Innovation Sandbox API key)
-
 ## Next Steps
 
-#### Once you have both API keys (Google Maps key and Travel Innovation Sandbox key), you can proceed to clone the project. DON'T START ANDROID STUDIO YET. After the project is cloned and before entering Android Studio, navigate to the project location and create a file called ***keys.xml*** in the values folder (app/src/main/res/values). In this file add a string resource named MAPS_API_KEY with the Google Maps API key. Follow the example below:
+#### You can proceed to start Android Studio and import the project, but before installing the application on your Android device there are some setup steps you need to do. They are explained in the next paragraphs.
 
-```
-<resources>
-  <string name="MAPS_API_KEY">Insert your Google Maps API Key</string>
-</resources>
-```
+#### In the ***strings.xml*** file of your app module you need to change the value of ***local_ip_address*** so it can match the IP of your local machine. You can verify your IP by typing ***ipconfig*** in a command prompt window. Check this link for assistance:
 
-#### The next step is that you create in the project directory a ***gradle.properties*** file and you need to add your Travel Innovation Sandbox API key to this file with the name API_KEY. Follow the example below:
+###### https://www.softwareok.com/?seite=faq-Windows-Console&faq=2
 
-```
-API_KEY = Insert your Travel Innovation Sandbox API key here using double quotes
-```
+#### BuildItBigger requires that the server code is running before the **TELL JOKE** button is pressed. Otherwise, a connection error will occur. The Google Cloud Endpoints development server is controlled by using two gradle tasks called ***appengineStart*** to start the server and ***appengineStop*** to stop it. You can check if the server is running by opening your web browser and typing ***localhost:8080***. Check the images below for clarification:
 
-#### The API key from Travel Innovation Sandbox website will expire approximately in 30 days since its creation. After this period, an error message will appear indicating a problem with the server. To solve this, go to the Amadeus Sandbox website, request a new API key and replace it in the ***gradle.properties*** file.
+</br>
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2Fdevappserver-endpoints.png?alt=media&token=70c58970-00e0-49fb-bd6e-549d2bc4269b" style="margin:4px">
 
-#### Finally, you can start Android Studio, import and build your project and install it on your Android device.
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2FGCE-server-gradle-tasks.png?alt=media&token=9735ed5c-6743-4dc0-8dea-ac1142b7a1ac" style="margin:4px">
+
+#### As mentioned before, BuildItBigger has two product flavors so you need to choose which version to install (free or paid).
+
+#### Once all the previous steps are finished and reviewed, you can proceed to install the application on your Android device.
 
 ## Compatibility
 
-#### Minimum Android SDK: TravelDBM requires a minimum API level of 15.
-#### Compile Android SDK: TravelDBM requires you to compile against API 27 or later.
+#### Minimum Android SDK: BuildItBigger requires a minimum API level of 15.
+#### Compile Android SDK: BuildItBigger requires you to compile against API 27 or later.
 
 ## Getting Help
 
