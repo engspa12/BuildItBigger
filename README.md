@@ -1,6 +1,6 @@
 # BuildItBigger
 
-#### BuildItBigger is an Android app developed during the Udacity's Android Nanodegree which tells a joke using a Google Cloud Endpoints development server. The final goal for this app was to understand and customize the behavior of the Gradle build tool as well as the steps involved in the creation of product flavors, build types, Java libraries, Android libraries, keystores, keys and signing configs including automatic signing.  
+#### BuildItBigger is an Android app developed during the Udacity's Android Nanodegree which tells a joke using a Google Cloud Endpoints development server. The final goal for this app was to understand and customize the behavior of the Gradle build tool as well as the steps involved in the creation of product flavors, build types, Java libraries, Android libraries, keystores, keys and signing configs including automatic signing.
 
 #### The app has free and paid versions. The only difference between them is the presence of advertisements in the free version.
 
@@ -35,7 +35,7 @@ src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/
 
 <img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2FGCE-server-gradle-tasks.png?alt=media&token=9735ed5c-6743-4dc0-8dea-ac1142b7a1ac" style="margin:4px">
 
-#### As mentioned before, BuildItBigger has two product flavors so you need to choose which version to install (free or paid).
+#### As mentioned before, BuildItBigger has two product flavors. Therefore you need to select which version to install (free or paid). Also, make sure your Android device and your local machine are connected to the same network. A network mismatch will result in a connection error. 
 
 #### Once all the previous steps are finished and reviewed, you can proceed to install the application on your Android device.
 
