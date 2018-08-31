@@ -22,22 +22,32 @@ src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/
 
 ## Next Steps
 
-#### You can proceed to start Android Studio and import the project, but before installing the application on your Android device there are some setup steps you need to do. They are explained in the next paragraphs.
+#### 1) Before going ahead you will need to be able to run a local instance of the GCE server. In order to do that you will have to install the Cloud SDK:
 
-#### In the ***strings.xml*** file of your app module you need to change the value of ***local_ip_address*** so it can match the IP of your local machine. You can verify your IP by typing ***ipconfig*** in a command prompt window. Check this link for assistance:
+###### https://cloud.google.com/sdk/docs/
+
+#### Once installed, you will need to follow the instructions in the Setup Cloud SDK section at:
+
+###### https://cloud.google.com/endpoints/docs/frameworks/java/migrating-android
+
+###### Note: You do not need to follow the rest of steps in the migration guide, only the Setup Cloud SDK.
+
+#### 2) You can proceed to start Android Studio and import the project, but before installing the application on your Android device there are some setup steps you need to do. They are explained in the next paragraphs.
+
+#### 3) In the ***strings.xml*** file of your app module you need to change the value of ***local_ip_address*** so it can match the IP of your local machine. You can verify your IP by typing ***ipconfig*** in a command prompt window. Check this link for assistance:
 
 ###### https://www.softwareok.com/?seite=faq-Windows-Console&faq=2
 
-#### BuildItBigger requires that the server code is running before the **TELL JOKE** button is pressed. Otherwise, a connection error will occur. The Google Cloud Endpoints development server is controlled by using two gradle tasks called ***appengineStart*** to start the server and ***appengineStop*** to stop it. You can check if the server is running by opening your web browser and typing ***localhost:8080***. Check the images below for clarification:
+#### 4) BuildItBigger requires that the server code is running before the **TELL JOKE** button is pressed. Otherwise, a connection error will occur. The Google Cloud Endpoints development server is controlled by using two gradle tasks called ***appengineStart*** to start the server and ***appengineStop*** to stop it. You can check if the server is running by opening your web browser and typing ***localhost:8080***. Check the images below for clarification:
 
 </br>
 <img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2Fdevappserver-endpoints.png?alt=media&token=70c58970-00e0-49fb-bd6e-549d2bc4269b" style="margin:4px">
 
 <img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2FGCE-server-gradle-tasks.png?alt=media&token=9735ed5c-6743-4dc0-8dea-ac1142b7a1ac" style="margin:4px">
 
-#### As mentioned before, BuildItBigger has two product flavors. Therefore you need to select which version to install (free or paid). Also, make sure your Android device and your local machine are connected to the same network. A network mismatch will result in a connection error. 
+#### 5) As mentioned before, BuildItBigger has two product flavors. Therefore you need to select which version to install (free or paid). Also, make sure your Android device and your local machine are connected to the same network. A network mismatch will result in a connection error.
 
-#### Once all the previous steps are finished and reviewed, you can proceed to install the application on your Android device.
+#### 6) Once all the previous steps are finished and reviewed, you can proceed to install the application on your Android device.
 
 ## Compatibility
 
