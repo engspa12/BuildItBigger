@@ -14,9 +14,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-
-
 import com.example.androidjokelibrary.AndroidLibraryActivity;
+import com.example.javajokeslibrary.JavaJoke;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
@@ -45,14 +44,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         frameLayoutcontainer = (FrameLayout) findViewById(R.id.fragment_container);
         frameLayoutcontainer.setVisibility(View.VISIBLE);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setVisibility(View.GONE);
 
         setTitle(getString(R.string.app_name));
-
 
     }
 
@@ -110,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             try {
+                //Retrieve joke from Backend (MyEndpoint.java)
                 String jokeFromBackend = myApiService.sayJoke().execute().getData();
                 return jokeFromBackend;
             } catch (IOException e) {
@@ -121,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(final String result) {
+            //Navigate to Android Library screen
             Intent intent = new Intent(getBaseContext(), AndroidLibraryActivity.class);
             String newJoke;
             if(BuildConfig.IS_PAID) {

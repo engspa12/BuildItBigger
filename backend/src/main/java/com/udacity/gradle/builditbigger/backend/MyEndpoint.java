@@ -23,6 +23,7 @@ public class MyEndpoint {
     @ApiMethod(name = "sayJoke")
     public MyBean sayJoke() {
 
+        //Use class created in JavaJokesLibrary
         JavaJoke joke = new JavaJoke();
         MyBean response = new MyBean();
         response.setData(joke.getJokeFromJavaLibrary() + " using our Google Cloud Endpoints development server.");
