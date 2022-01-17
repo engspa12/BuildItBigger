@@ -2,11 +2,9 @@ package com.example.androidjokelibrary;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class AndroidLibraryActivity extends AppCompatActivity {
 
