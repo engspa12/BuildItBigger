@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
                         //- 10.0.2.2 is localhost's IP address in Android emulator
                         //- turn off compression when running against local devappserver
                         .setRootUrl(getString(R.string.local_ip_address))
+                        .setApplicationName(getString(R.string.app_name))
                         .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                             @Override
                             public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
@@ -132,6 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CODE_REQUEST) {
             if (resultCode == RESULT_OK) {
                 progressBar.setVisibility(View.GONE);
