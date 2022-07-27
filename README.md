@@ -6,9 +6,10 @@
 
 </br>
 
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F1.png?alt=media&token=f789cdff-8126-43d2-95f1-c950756c0360" width="420" height="692" style="margin:4px"> <img/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F2.png?alt=media&token=1612d58a-19c9-4d28-ae79-433b4f8d6a0a" width="420" height="692" style="margin:4px">
-<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F3.png?alt=media&token=cf3c0ec4-eac5-482a-9c3f-b171e35f1cc7" width="420" height="692" style="margin:4px"> <img/><img
-src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F4.png?alt=media&token=f3ae25c8-bf5b-4be6-a316-ea28cb4605f0" width="420" height="692" style="margin:4px">
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F1.png?alt=media&token=f789cdff-8126-43d2-95f1-c950756c0360" width="375" height="725"><img height="725" hspace="20"/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F2.png?alt=media&token=1612d58a-19c9-4d28-ae79-433b4f8d6a0a" width="375" height="725">
+<img width="770" vspace="20"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F3.png?alt=media&token=cf3c0ec4-eac5-482a-9c3f-b171e35f1cc7" width="375" height="725"><img height="725" hspace="20"/><img src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/o/BuildItBigger%2F4.png?alt=media&token=f3ae25c8-bf5b-4be6-a316-ea28cb4605f0" width="375" height="725">
+<img width="770" vspace="20"/>
 
 ## Getting Started
 
@@ -51,14 +52,14 @@ src="https://firebasestorage.googleapis.com/v0/b/inventoryapp-c8633.appspot.com/
 
 ## Compatibility
 
-#### Minimum Android SDK: BuildItBigger requires a minimum API level of 15.
-#### Compile Android SDK: BuildItBigger requires you to compile against API 27 or later.
+#### Minimum Android SDK: BuildItBigger requires a minimum API level of 21.
+#### Compile Android SDK: BuildItBigger requires you to compile against API 32 or later.
 
 ## Getting Help
 
 #### To report a specific problem or feature request, open a new issue on Github. For questions, suggestions, or anything else, email to:
 
-###### arturo_lpc@hotmail.com
+###### arturo.lpc12@gmail.com
 
 ## Author
 
