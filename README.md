@@ -17,7 +17,7 @@
 
 ## Prerequisites
 
-#### BuildItBigger was developed using Android Studio IDE so you must install it in your computer before proceeding:
+#### BuildItBigger was developed using Android Studio IDE so you must install it on your computer before proceeding:
 
 ###### https://developer.android.com/studio/
 
